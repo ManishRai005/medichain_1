@@ -1,0 +1,49 @@
+/* 🚀 Futuristic Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    margin: 20px auto;
+    width: 90%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar:hover {
+    box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.5);
+  }
+  
+  /* 🔷 Neon Logo Effect */
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #00eaff;
+    text-shadow: 0px 0px 10px rgba(0, 234, 255, 0.8);
+  }
+  
+  /* 🌟 Glowing Navigation */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  /* 🚀 Glowing Hover Effect */
+  .nav-links li a:hover {
+    color: #00eaff;
+    text-shadow: 0px 0px 15px rgba(0, 234, 255, 1);
+    transform: scale(1.1);
+  }
+  
